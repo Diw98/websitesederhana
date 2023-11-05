@@ -1,0 +1,204 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styles */
+.header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin-right: 20px;
+}
+
+.navbar-menu li:last-child {
+    margin-right: 0;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-menu a:hover {
+    color: #007BFF;
+}
+
+/* Hero Section Styles */
+.hero {
+    padding: 100px 0;
+    text-align: center;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.hero-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero-description {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+/* About Section Styles */
+.about {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Services Section Styles */
+.services {
+    padding: 80px 0;
+}
+
+.service-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.service-icon {
+    font-size: 24px;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+    justify-content: center;
+}
+
+.footer h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.contact-info li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Hover effects on Social Media Icons */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+
+}
+
+.socialIcons a:hover i{
+    background-color: #111;
+    transition: 0.5s;
+
+}
+
+.footerBottom{
+    
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: black;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+.social-icons a:last-child {
+    margin-right: 0;
+}
